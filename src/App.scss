@@ -1,0 +1,33 @@
+$deepBlue:#032f3e;
+$white:#fff;
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+.App{
+    text-align: center;
+}
+.navigation-component-ul{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 13px;
+    background-color: $deepBlue;
+        li{
+            display: inline-block;
+        }
+}
+
+.all-customers-component{
+    width: 70%;
+    margin:auto;
+    border-radius: 5px;
+    color:$white;
+    background-color: $deepBlue;
+}
